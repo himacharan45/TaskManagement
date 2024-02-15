@@ -1,0 +1,68 @@
+/* Menu.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    padding-top: 20px;
+  }
+  
+  .header {
+    background-color: #b14e30c2;
+    color: #fff;
+    padding: 18px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .center-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+    order: 2;
+  }
+  
+  .menu-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover,
+  .active-link {
+    color: yellow;
+  }
+  
+  .logout-button{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  
